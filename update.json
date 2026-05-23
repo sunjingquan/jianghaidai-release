@@ -1,0 +1,11 @@
+{
+  "latestVersion": "0.1.0",
+  "latestBuild": 1,
+  "title": "当前已是最新版本",
+  "notes": [
+    "公开发布仓库已建立，后续版本会在这里发布安装包和更新清单"
+  ],
+  "downloadUrl": "https://github.com/sunjingquan/jianghaidai-release/releases/latest",
+  "qqGroup": "1049643673",
+  "force": false
+}

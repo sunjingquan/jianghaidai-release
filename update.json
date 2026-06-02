@@ -1,9 +1,13 @@
 {
-  "latestVersion": "0.2.0",
-  "latestBuild": 8,
-  "title": "发现新版本",
+  "latestVersion": "0.3.0",
+  "latestBuild": 9,
+  "title": "酱海带 0.3.0 已发布",
   "notes": [
-    "请前往公开发布页查看本次更新内容并下载新版安装包"
+    "新增实践/实训课程安排解析与展示，可在课表详情查看实际地点和周次安排",
+    "重构课表课程卡片，优化圆角、留白、字体层级、柔和配色和同色系阴影",
+    "优化课表网格、周选择器与冲突课程展示，移动端可读性更好",
+    "增强课程、成绩和实践安排的本地缓存与数据库迁移覆盖",
+    "改进认证与错误日志处理，避免向界面暴露敏感信息"
   ],
   "downloadUrl": "https://github.com/sunjingquan/jianghaidai-release/releases/latest",
   "qqGroup": "1049643673",

@@ -1,40 +1,40 @@
 {
-  "latestVersion": "0.5.0",
-  "latestBuild": 16,
-  "title": "酱海带 0.5.0 已发布",
+  "latestVersion": "0.5.1",
+  "latestBuild": 17,
+  "title": "酱海带 0.5.1 已发布",
   "notes": [
-    "新增体测成绩查询，可查看本学年成绩、历年明细和各项目评分标准。",
-    "支持独立保存体测账号，并提供学校体测系统的密码找回入口。",
-    "成绩页可在课程成绩与体测成绩之间快速切换。",
-    "社区支持在用户明确确认后使用校园账号快捷登录，并优化账号切换和授权稳定性。",
-    "Android 支持在 App 内检查、下载并校验更新，再交由系统安装器完成安装。",
-    "更新文件接入 Cloudflare R2，按设备架构提供安装包，并增加多地址清单容灾。",
-    "修复 Android 三键导航遮挡底部弹层及部分页面布局问题。",
-    "登录页补充 WebVPN 与统一认证的初始密码规则说明。"
+    "帖子正文、问答评论、公告和编辑预览现已支持 LaTeX 数学公式，并新增公式快捷工具。",
+    "修复 App 内阅读帖子不增加论坛浏览量的问题，同时保留楼层已读进度与未读提醒。",
+    "优化公式在窄屏、深色模式和异常语法下的显示与回退体验。",
+    "新增社区资料页，可修改头像、昵称、@用户名、个人简介、位置和个人网站。",
+    "校园账号快速登录成功后可选择设置昵称和头像，也可以跳过并稍后完善。",
+    "资料修改后会同步刷新帖子作者信息，并强化切换校园账号或退出时的凭证隔离。",
+    "校园快速登录的门户密码传输协议保持不变，社区资料只在论坛授权成功后修改。",
+    "Flutter Web 社区请求支持同源代理，避免浏览量和资料请求受跨域预检影响。"
   ],
   "downloadUrl": "https://jianghaidai.com/download",
   "qqGroup": "1049643673",
   "force": false,
   "assets": {
     "androidArm64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.0/jianghaidai-campus-v0.5.0-android-arm64-v8a.apk",
-      "size": 26121063,
-      "sha256": "8a1dcb982adb0847e994d7c93360052ebc0ef12736f2847c28118e65ccc00d89"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.1/jianghaidai-campus-v0.5.1-android-arm64-v8a.apk",
+      "size": 27545784,
+      "sha256": "e43a84e4ab2135a49183c1ad83b1e2137949b0f86170d0f75f1d0bab5aad3045"
     },
     "androidArmv7": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.0/jianghaidai-campus-v0.5.0-android-armeabi-v7a.apk",
-      "size": 24231113,
-      "sha256": "712159a8e4de71188fbab3c1b7c579f8a10b557737f2c5f95fd92e92b3a2eaef"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.1/jianghaidai-campus-v0.5.1-android-armeabi-v7a.apk",
+      "size": 25836058,
+      "sha256": "01be250eecfe57df27ee88329c9a0eecdec7c34e3477a5c5bb81ed2a0dafb895"
     },
     "androidX64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.0/jianghaidai-campus-v0.5.0-android-x86_64.apk",
-      "size": 27622696,
-      "sha256": "f2e3b0c27d7c4b2e479a16dd3865e57abbd5d3f512aa0d2cecfe05216e42d464"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.1/jianghaidai-campus-v0.5.1-android-x86_64.apk",
+      "size": 29112953,
+      "sha256": "b24e9ee5814adbb542274da6e5cb867210f332faa4cfb6a5266031a39574cb28"
     },
     "androidAppBundle": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.0/jianghaidai-campus-v0.5.0-android.aab",
-      "size": 72703331,
-      "sha256": "2b14fc259073f06ecc7fcc5af1dacc662b60699ca63976102af6ec6aa86af582"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.1/jianghaidai-campus-v0.5.1-android.aab",
+      "size": 76101743,
+      "sha256": "b714771ef61ac1eb2cb2b903aa5baca9b0ea89daf129352f5f8cde031fde982b"
     }
   }
 }

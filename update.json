@@ -1,40 +1,41 @@
 {
-  "latestVersion": "0.5.1",
-  "latestBuild": 17,
-  "title": "酱海带 0.5.1 已发布",
+  "latestVersion": "0.5.2",
+  "latestBuild": 18,
+  "title": "酱海带 0.5.2 已发布",
   "notes": [
-    "帖子正文、问答评论、公告和编辑预览现已支持 LaTeX 数学公式，并新增公式快捷工具。",
-    "修复 App 内阅读帖子不增加论坛浏览量的问题，同时保留楼层已读进度与未读提醒。",
-    "优化公式在窄屏、深色模式和异常语法下的显示与回退体验。",
-    "新增社区资料页，可修改头像、昵称、@用户名、个人简介、位置和个人网站。",
-    "校园账号快速登录成功后可选择设置昵称和头像，也可以跳过并稍后完善。",
-    "资料修改后会同步刷新帖子作者信息，并强化切换校园账号或退出时的凭证隔离。",
-    "校园快速登录的门户密码传输协议保持不变，社区资料只在论坛授权成功后修改。",
-    "Flutter Web 社区请求支持同源代理，避免浏览量和资料请求受跨域预检影响。"
+    "新增 H 海洋知识、R 人文素养、Z 自然科学、G 公共艺术四类公选课毕业进度。",
+    "自动汇总全部学期已通过课程并按课程去重，每类目标 2 学分，缺口与已修课程一目了然。",
+    "首页和成绩页均可进入公选进度，数据继续复用成绩缓存，离线时也能查看已有结果。",
+    "问答帖支持由论坛授权的发帖人或管理人员采纳、取消采纳答案，并同步显示“已解决”状态。",
+    "社区未读数现会显示在全局底部导航和桌面侧栏，回到 App 后自动节流刷新。",
+    "修复“在浏览器中打开”重新跳回 App 内帖子页的问题，并隐藏图片下方冗长的文件名、尺寸和大小信息。",
+    "登录后会自动续接刚才因未登录中断的点赞、回复、收藏等操作，减少重复点击。",
+    "发帖前会读取分类权限、模板和慢速模式限制，提前展示不可发布或需要等待的原因。",
+    "审核队列中的主题和回复会明确提示并保留账号隔离副本；失败、超时或限流时不再误清草稿。"
   ],
   "downloadUrl": "https://jianghaidai.com/download",
   "qqGroup": "1049643673",
   "force": false,
   "assets": {
     "androidArm64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.1/jianghaidai-campus-v0.5.1-android-arm64-v8a.apk",
-      "size": 27545784,
-      "sha256": "e43a84e4ab2135a49183c1ad83b1e2137949b0f86170d0f75f1d0bab5aad3045"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.2/jianghaidai-campus-v0.5.2-android-arm64-v8a.apk",
+      "size": 27678264,
+      "sha256": "9e235dd5c7af4074ee899fb436bf6332eab628c9fddd2f9e3fbf0bf01be7cb9d"
     },
     "androidArmv7": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.1/jianghaidai-campus-v0.5.1-android-armeabi-v7a.apk",
-      "size": 25836058,
-      "sha256": "01be250eecfe57df27ee88329c9a0eecdec7c34e3477a5c5bb81ed2a0dafb895"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.2/jianghaidai-campus-v0.5.2-android-armeabi-v7a.apk",
+      "size": 25968538,
+      "sha256": "0b403c8b1f9d86d80d09236d232d0e220358949158edcc54f9f6e41e5b0a6083"
     },
     "androidX64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.1/jianghaidai-campus-v0.5.1-android-x86_64.apk",
-      "size": 29112953,
-      "sha256": "b24e9ee5814adbb542274da6e5cb867210f332faa4cfb6a5266031a39574cb28"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.2/jianghaidai-campus-v0.5.2-android-x86_64.apk",
+      "size": 29245429,
+      "sha256": "bbec571a663c6587982e3e4b080e0ad38f23be052b14baef15aca8d963ead3c9"
     },
     "androidAppBundle": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.1/jianghaidai-campus-v0.5.1-android.aab",
-      "size": 76101743,
-      "sha256": "b714771ef61ac1eb2cb2b903aa5baca9b0ea89daf129352f5f8cde031fde982b"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.2/jianghaidai-campus-v0.5.2-android.aab",
+      "size": 76464525,
+      "sha256": "837ff9fdac17a5527e5fa6967e7b00050e20ce3744bcc0a6675204559fdcb7ed"
     }
   }
 }

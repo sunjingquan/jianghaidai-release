@@ -1,41 +1,38 @@
 {
-  "latestVersion": "0.5.2",
-  "latestBuild": 18,
-  "title": "酱海带 0.5.2 已发布",
+  "latestVersion": "0.5.3",
+  "latestBuild": 19,
+  "title": "酱海带 0.5.3 已发布",
   "notes": [
-    "新增 H 海洋知识、R 人文素养、Z 自然科学、G 公共艺术四类公选课毕业进度。",
-    "自动汇总全部学期已通过课程并按课程去重，每类目标 2 学分，缺口与已修课程一目了然。",
-    "首页和成绩页均可进入公选进度，数据继续复用成绩缓存，离线时也能查看已有结果。",
-    "问答帖支持由论坛授权的发帖人或管理人员采纳、取消采纳答案，并同步显示“已解决”状态。",
-    "社区未读数现会显示在全局底部导航和桌面侧栏，回到 App 后自动节流刷新。",
-    "修复“在浏览器中打开”重新跳回 App 内帖子页的问题，并隐藏图片下方冗长的文件名、尺寸和大小信息。",
-    "登录后会自动续接刚才因未登录中断的点赞、回复、收藏等操作，减少重复点击。",
-    "发帖前会读取分类权限、模板和慢速模式限制，提前展示不可发布或需要等待的原因。",
-    "审核队列中的主题和回复会明确提示并保留账号隔离副本；失败、超时或限流时不再误清草稿。"
+    "离线横幅新增“重新登录”按钮，无需退出当前页面即可使用本机安全存储中的账号再次登录。",
+    "重新登录期间仍可继续查看离线数据，并通过加载状态避免重复提交。",
+    "登录成功后自动恢复在线并刷新课表和成绩；失败时保留离线模式并给出明确提示。",
+    "加强会话切换保护，避免迟到的登录结果覆盖当前账号状态。",
+    "发帖和回复会按论坛要求同步编辑时长，提升与 Discourse 发布规则的兼容性。",
+    "本地与云端草稿会保留编辑计时，恢复草稿后可继续发布，不会因页面重开而丢失计时状态。"
   ],
   "downloadUrl": "https://jianghaidai.com/download",
   "qqGroup": "1049643673",
   "force": false,
   "assets": {
     "androidArm64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.2/jianghaidai-campus-v0.5.2-android-arm64-v8a.apk",
-      "size": 27678264,
-      "sha256": "9e235dd5c7af4074ee899fb436bf6332eab628c9fddd2f9e3fbf0bf01be7cb9d"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.3/jianghaidai-campus-v0.5.3-android-arm64-v8a.apk",
+      "size": 27743800,
+      "sha256": "3b3a4ed97daa913cec075d9c138f677ca7c3e3b6be58200b9c1565f6ab3921ac"
     },
     "androidArmv7": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.2/jianghaidai-campus-v0.5.2-android-armeabi-v7a.apk",
-      "size": 25968538,
-      "sha256": "0b403c8b1f9d86d80d09236d232d0e220358949158edcc54f9f6e41e5b0a6083"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.3/jianghaidai-campus-v0.5.3-android-armeabi-v7a.apk",
+      "size": 26001306,
+      "sha256": "24ed296758f01183bc179b81b6418792799c030b1a685fb3d19963f1845d20f4"
     },
     "androidX64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.2/jianghaidai-campus-v0.5.2-android-x86_64.apk",
-      "size": 29245429,
-      "sha256": "bbec571a663c6587982e3e4b080e0ad38f23be052b14baef15aca8d963ead3c9"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.3/jianghaidai-campus-v0.5.3-android-x86_64.apk",
+      "size": 29245433,
+      "sha256": "421214c4dbb0a93a55df15771198ae5dffd320bbbd7199194c43e4817bc95e71"
     },
     "androidAppBundle": {
-      "url": "https://dl.jianghaidai.com/releases/v0.5.2/jianghaidai-campus-v0.5.2-android.aab",
-      "size": 76464525,
-      "sha256": "837ff9fdac17a5527e5fa6967e7b00050e20ce3744bcc0a6675204559fdcb7ed"
+      "url": "https://dl.jianghaidai.com/releases/v0.5.3/jianghaidai-campus-v0.5.3-android.aab",
+      "size": 76514195,
+      "sha256": "be64f0cebd239b523f2728c9d7bce8752f23d4edaf0e53170c9799bf65f3419c"
     }
   }
 }

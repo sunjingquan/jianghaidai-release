@@ -1,44 +1,39 @@
 {
-  "latestVersion": "0.6.0",
-  "latestBuild": 21,
-  "title": "酱海带 0.6.0 已发布",
+  "latestVersion": "0.6.1",
+  "latestBuild": 23,
+  "title": "酱海带 0.6.1 已发布",
   "notes": [
-    "新增 PU 成绩页，可使用当前校园登录查询本人 A 类、B 类与校园收录的劳动教育学分，并按学期查看明细。",
-    "支持使用本人 PU 密码连接官方劳动记录，查看活动发分与成果认定；可选择在本机保持登录，会话过期后尝试自动续登。",
-    "总览按 A 类、B 类和劳动教育切换，提供 A/B 类参考差额与分项核对。劳动教育优先展示官方已认定值，校园数据标记为部分收录，两来源不相加，也不据此判定毕业审核通过。",
-    "各账号独立缓存，支持离线查看；刷新失败保留已有记录与获取时间。修复官方空分类分页导致查询失败的问题。",
-    "改善社区、体测及 PU 绑定的账号隔离和登录状态保留，减少重启、切号及升级后的重复登录。",
-    "改善校园快速登录在 IPv6/NAT64 网络下的连接兼容性；对卡住的源站连接增加一次有界建连尝试，提供更明确的失败提示。",
-    "修复取消登录、切号后底层连接未及时关闭，以及手机时间偏差导致有效授权被误判过期的问题；只读身份核验遇部分瞬时错误时最多重试一次，密码提交不自动重放。",
-    "修复 macOS 社区登录 WebView 背景设置引发的异常。",
-    "修复原生社区话题浏览量跟踪，改善连续输入时长统计及中文输入法兼容性，减少正常发帖被误判的情况。",
-    "去除学校重复返回的相同成绩记录，避免列表、学分和 GPA 重复计数；保留不同学期或不同成绩的记录。",
-    "学校返回未初始化成绩查询表单时明确提示暂不可用，保留已有成绩与公选课进度。",
-    "iOS TestFlight 构建新增独立更新提醒，支持同版本新构建提示、稍后更新与跳过，经 TestFlight 完成更新。"
+    "课表新增图片分享，支持导出单周或整学期课表；分享图片沿用应用内课表样式，方便保存和转发。",
+    "优化课表分享预览，可切换周次、缩放查看，并展示对应作息时间和实际安排。",
+    "PU 官方成绩扩展到 A 类、B 类和劳动教育三类，优先展示官方学分、分类和明细，支持查看本机缓存。",
+    "修复社区回复数少计，以及发布、删除回复后列表和详情计数未及时更新的问题；同步修正私信消息数显示。",
+    "修复刷新时旧分页数据可能重新显示已删除回复的问题，避免新回复在刷新后重复计数。",
+    "改善校园快速登录在部分网络下无法连接的问题，完善加密传输、取消操作和超时提示。",
+    "覆盖升级沿用原有社区账号、校园绑定及本机登录信息。"
   ],
   "downloadUrl": "https://jianghaidai.com/download",
   "qqGroup": "1049643673",
   "force": false,
   "assets": {
     "androidArm64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.6.0/jianghaidai-campus-v0.6.0-android-arm64-v8a.apk",
-      "size": 29729157,
-      "sha256": "9767ea719ac334cce59c9571e8de21b3beed93afda00f00ec204a89f78d1474b"
+      "url": "https://dl.jianghaidai.com/releases/v0.6.1/jianghaidai-campus-v0.6.1-android-arm64-v8a.apk",
+      "size": 30066613,
+      "sha256": "0724475b0b7f56e9fd5e4ddb8522f3a0743353995c71b5a775282e41c100400a"
     },
     "androidArmv7": {
-      "url": "https://dl.jianghaidai.com/releases/v0.6.0/jianghaidai-campus-v0.6.0-android-armeabi-v7a.apk",
-      "size": 28084967,
-      "sha256": "966a96e0d3feb7941a9a24ace96027db35f32fb05bfaa5da59adbe5e466438e2"
+      "url": "https://dl.jianghaidai.com/releases/v0.6.1/jianghaidai-campus-v0.6.1-android-armeabi-v7a.apk",
+      "size": 28455191,
+      "sha256": "9469cabdee6aa5573011f8820c86f0cfd82ae05a2e391b4717edef8db1739348"
     },
     "androidX64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.6.0/jianghaidai-campus-v0.6.0-android-x86_64.apk",
-      "size": 31296326,
-      "sha256": "8be314224b494ce1c59b50139bc99b8066de85c3493be76010d5d5076ff27432"
+      "url": "https://dl.jianghaidai.com/releases/v0.6.1/jianghaidai-campus-v0.6.1-android-x86_64.apk",
+      "size": 31633782,
+      "sha256": "6a830d8af512057e3e045eaf550847816bc9f30734c5354a5b59017dc8755209"
     },
     "androidAppBundle": {
-      "url": "https://dl.jianghaidai.com/releases/v0.6.0/jianghaidai-campus-v0.6.0-android.aab",
-      "size": 80702083,
-      "sha256": "24d00fd143cd34f456b54b1f92fc7e3c53c8a7eaf32f52807f45ff2d3a94220b"
+      "url": "https://dl.jianghaidai.com/releases/v0.6.1/jianghaidai-campus-v0.6.1-android.aab",
+      "size": 81498535,
+      "sha256": "210503d17f85e71e9c18ba79195860c6e3f535f0aa51ce9082a5b816b0c95ea7"
     }
   }
 }

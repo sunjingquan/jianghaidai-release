@@ -1,40 +1,37 @@
 {
-  "latestVersion": "0.7.0",
-  "latestBuild": 24,
-  "title": "酱海带 0.7.0 已发布",
+  "latestVersion": "0.7.1",
+  "latestBuild": 25,
+  "title": "酱海带 0.7.1 已发布",
   "notes": [
-    "社区新增「我的内容」、公开个人主页和贡献记录，可查看已采纳回答、同学推荐及已获徽章。",
-    "消息中心整合通知与私信，支持分类筛选、关注与提醒设置；社区前台有新回复时提供更新提示，首页可查看本人互动提醒。",
-    "新增收藏搜索、阅读历史和离线阅读，优化话题导航、楼层定位、图片查看、保存与分享。",
-    "从课程详情直达相关讨论，发帖支持课程背景和分类模板；学业、交易与寻物话题可按权限更新完成状态。",
-    "改善发帖、回复、评论管理与草稿恢复，提交结果不确定时先核对，减少重复发布。",
-    "优化个人资料与用户名设置，展示首次改名机会和后续 30 天冷却状态，改善受限资料与私信权限提示。",
-    "支持从社区话题分享链接打开 App，修复通知类型、失败恢复及共享网络下校园快速登录的问题。",
-    "iOS 最低支持版本调整为 iOS 15.0；覆盖升级沿用原有应用标识、发布签名和本机账号存储。"
+    "新增 Android 与 iOS 桌面小组件，可查看下一节课、今日课程、本周课表和近期考试；iOS 16 及以上支持矩形锁屏小组件。",
+    "首页新增小组件入口，提供添加指引、同步状态和课程名称／地点隐私设置，点击课程或考试可查看对应安排。",
+    "优化本周课表的日期、节次与作息展示，按课程安排调整周末列和晚课区域，改善长课程名、完整教室号与大字号下的可读性。",
+    "今日课程结束后可查看明日或下次课程；同步过期及部分刷新失败时保留提示与原有数据。",
+    "改善小组件跨日切换、实际教学安排匹配和跨季节作息展示，切号、退出及清缓存时同步清理共享课表快照。"
   ],
   "downloadUrl": "https://jianghaidai.com/download",
   "qqGroup": "1049643673",
   "force": false,
   "assets": {
     "androidArm64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.7.0/jianghaidai-campus-v0.7.0-android-arm64-v8a.apk",
-      "size": 32035393,
-      "sha256": "9bfdc9841f1f3b93776e20e0e90d0d423445953c01e7addbe7373c8cbb5f4116"
+      "url": "https://dl.jianghaidai.com/releases/v0.7.1/jianghaidai-campus-v0.7.1-android-arm64-v8a.apk",
+      "size": 32311698,
+      "sha256": "d6160a160448c2db939d07d51baadad2c0be7104ea32262459016b8cbd49b42c"
     },
     "androidArmv7": {
-      "url": "https://dl.jianghaidai.com/releases/v0.7.0/jianghaidai-campus-v0.7.0-android-armeabi-v7a.apk",
-      "size": 30620575,
-      "sha256": "2ae9aab5bde066cb860616f768a47caa5e2d4e5deea077a62e1efbb1e0702795"
+      "url": "https://dl.jianghaidai.com/releases/v0.7.1/jianghaidai-campus-v0.7.1-android-armeabi-v7a.apk",
+      "size": 30913268,
+      "sha256": "e537306c6544bee0b437aae341119c2529ec8b7d0f5536810bb087cafd1ba1cd"
     },
     "androidX64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.7.0/jianghaidai-campus-v0.7.0-android-x86_64.apk",
-      "size": 33668098,
-      "sha256": "f2a1dbd4f53b6167c2ef9842d15b94c26f3f13c25c044fc20caa4ccbb8ed2710"
+      "url": "https://dl.jianghaidai.com/releases/v0.7.1/jianghaidai-campus-v0.7.1-android-x86_64.apk",
+      "size": 33944403,
+      "sha256": "1b00e13d5e2ab6b11b458ef5098b4318f80d39b4d93b99239923f6300c161cf2"
     },
     "androidAppBundle": {
-      "url": "https://dl.jianghaidai.com/releases/v0.7.0/jianghaidai-campus-v0.7.0-android.aab",
-      "size": 86815915,
-      "sha256": "2826bb818aeda8f31bf67caf23143264b3c4a31ee3197ab9df1cc6d102dc10e0"
+      "url": "https://dl.jianghaidai.com/releases/v0.7.1/jianghaidai-campus-v0.7.1-android.aab",
+      "size": 87452119,
+      "sha256": "711734e414c88ed3bd9ab5479b105f59d9eb4b8b3b46107ba90cf9098965b256"
     }
   }
 }

@@ -1,39 +1,34 @@
 {
-  "latestVersion": "0.8.0",
-  "latestBuild": 27,
-  "title": "酱海带 0.8.0 已发布",
+  "latestVersion": "0.8.1",
+  "latestBuild": 28,
+  "title": "酱海带 0.8.1 已发布",
   "notes": [
-    "新增学习中心，集中查看课程、作业、考试、成绩、资料、章节与课程通知，支持学期整理和离线缓存。",
-    "新增个人计划，可记录作业、课程和日程，设置重复与提醒；支持本机草稿、备份导入导出及官方课程的单次调整。",
-    "学习任务支持原生查看与作答、答案检查和提交结果核对；已适配的考试提供须知、验证码、答题导航、保存进度和成绩页面，特殊考试要求仍由学习通处理。",
-    "新增本机题库与可选 AI 答题辅助、形策参考资料查询；按题干和完整选项匹配，仅补充空白答案，使用前请自行核对。",
-    "课程资料、文档与视频使用原生阅读和播放界面，保留平台要求及真实进度反馈。",
-    "首页、课表和小组件整合个人任务与安排，优化课程提醒、Android 重启恢复，以及账号切换和缓存隔离。",
-    "优化蓝青主题、深色模式、大字号、页面导航与编辑体验；改进校园会话恢复、学习目录加载和学期识别。"
+    "修复部分设备学习通考试验证码无法显示的问题。",
+    "改善验证码窗口加载体验，减少准备过程中短暂出现的未就绪提示。"
   ],
   "downloadUrl": "https://jianghaidai.com/download",
   "qqGroup": "1049643673",
   "force": false,
   "assets": {
     "androidArm64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.8.0/jianghaidai-campus-v0.8.0-android-arm64-v8a.apk",
-      "size": 37370526,
-      "sha256": "e8f3b5e0eebe4d8e6a0ed1acdf161dd19465ace8651a4411361b7e56d5ebb5d7"
+      "url": "https://dl.jianghaidai.com/releases/v0.8.1/jianghaidai-campus-v0.8.1-android-arm64-v8a.apk",
+      "size": 37436062,
+      "sha256": "de1dd5f4b5525a9366e551cbfae81f19dcfe279f067cfa4fe1af8d94291029a3"
     },
     "androidArmv7": {
-      "url": "https://dl.jianghaidai.com/releases/v0.8.0/jianghaidai-campus-v0.8.0-android-armeabi-v7a.apk",
+      "url": "https://dl.jianghaidai.com/releases/v0.8.1/jianghaidai-campus-v0.8.1-android-armeabi-v7a.apk",
       "size": 36217856,
-      "sha256": "16d973814b927ec85f7dd4613df8b102c4449200fec38e5f4d9df4cd7e5ad7e5"
+      "sha256": "0b3d5bda31811980ba61df5318a56c0f4ac2506e76cf6e2340a128dd63393ec8"
     },
     "androidX64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.8.0/jianghaidai-campus-v0.8.0-android-x86_64.apk",
+      "url": "https://dl.jianghaidai.com/releases/v0.8.1/jianghaidai-campus-v0.8.1-android-x86_64.apk",
       "size": 39134303,
-      "sha256": "988c18f136bb3d8ca210dc2fa121d0d6721c573e2dddf55c16a985cf37aeec90"
+      "sha256": "687bb2b8197a46761c6d781d1f228ba16b4f9132c3eeef8cb3fed028f0c25160"
     },
     "androidAppBundle": {
-      "url": "https://dl.jianghaidai.com/releases/v0.8.0/jianghaidai-campus-v0.8.0-android.aab",
-      "size": 99893534,
-      "sha256": "85152253a8fbb230c85d0db183effc4ad4bd71e053541ee15ed129d380e2c30a"
+      "url": "https://dl.jianghaidai.com/releases/v0.8.1/jianghaidai-campus-v0.8.1-android.aab",
+      "size": 99858321,
+      "sha256": "2ecaf83ffca5c6491de18f1185a5f669c47e22ac65f78cfa7d96d5a682fe042b"
     }
   }
 }

@@ -1,42 +1,37 @@
 {
-  "latestVersion": "0.9.4",
-  "latestBuild": 35,
-  "title": "酱海带 0.9.4 已发布",
+  "latestVersion": "0.9.5",
+  "latestBuild": 36,
+  "title": "酱海带 0.9.5 已发布",
   "notes": [
-    "社区广场全面焕新为单列卡片流与吸顶频道轨：列表直接展示净化后的摘要、多图网格与热评预览，支持卡片内直接点赞、长按速览浮窗、无损沉浸搜索及首页双帖联动；平板与桌面端新增自适应分栏工作台、指令面板与稍后阅读暂存夹。",
-    "帖子阅读器重构为 680pt 居中正文舞台、小红书式常驻底栏与两级楼中楼评论：支持双向零跳动滚动、时间轴快滑轨、评论排序切换、代码与富媒体卡片以及楼中楼图片缩略图预览；两阶渐进回帖坞内联表情与图文输入，并接入秒级新帖实时更新流。",
-    "发帖工作台升级为无框信纸式所见即所得富文本编辑器：支持多篇新帖草稿隔离存储与原位切换、场景与投票无损草稿闭环、内联标签补全、双模融合配图相册架、图片打码与定比裁剪画布，以及发帖前双视角真实预览。",
-    "个人主页与社区身份体系重构：升级双视角个人主页、富媒体动态流、三阶勋章详情页与个人主页二维码名片海报，「我的社区」面板升级为聚合互动数据与私信角标的身份中枢卡；新增头像速览名片、Bento 弹簧更多菜单与实时预览资料编辑台，并支持 6 位邮箱验证码绑定个人主邮箱与独立密码。",
-    "私信升级为深度 IM 会话与消息中心：支持 1v1 会话自动复用、最新消息摘要预览、聊天气泡交互与统一通知直展。",
-    "校园垂直场景闭环：新增「找搭子」组队场景、课程口碑百科卡、考试与课程讨论脱敏入口，优化跳蚤市场双列橱窗自动续拉与资料库防误删保护，并打通跨模块个人计划互通。",
-    "早起冷启动升级为 Local-First 乐观秒开：先直接展示本人周课表并在后台静默恢复会话，引入 800ms 静默宽限窗与同步错峰，剪除隔夜重登多余跳转。",
-    "教务与社区登录韧性增强：支持夜间公网 CAS 双层降级登录、WebVPN 失败后直连正方刷新课表和成绩，重构教务缓存态视觉语义与前后台／下拉无感自愈；按学号持久化社区凭证，缓存态不再误拦截社区访问。",
-    "统计协议升级至 v3 全场景口径并按首次活跃日统计安装来源，持续定位冷启动与交互卡顿。",
-    "修复女生历年体测误显示引体向上与 1000 米跑及仰卧起坐标准匹配、自建课程与个人安排地点及备注截断、安卓窄屏下 PU 顶栏胶囊与成绩筛选栏折行、手机端发帖后无法交互以及评论带图泄露底层文件名等问题。"
+    "新增安卓锁屏常驻实时课程通知：支持提前 30/45/60 分钟提醒、30 分钟内短课间自动合并与下课自动收起，兼容 Android 16 实况通知胶囊，并与课前提醒自动去重。",
+    "新增安卓已下载课程资料应用内直看预览：PDF 支持分页缩放阅读，图片与 TXT 支持直看及划词复制，顶栏保留用其他应用打开与分享导出。",
+    "启用安卓全站沉浸式边到边系统栏并优化侧滑返回层级：状态栏与手势导航栏透明并随明暗主题自动切换深浅图标，帖子回复坞、筛选、搜索与底栏支持逐级返回。",
+    "修复安卓社区长按划词复制失效及与左滑回复冲突的问题，补齐话题标题、问答附评与私信自由选词、引用及生成金句卡能力。",
+    "重构实验教学系统登录弹层为放大验证码卡与 4 格输满自动登录，并修复安卓软键盘弹出闪退以及非密码输入框误弹安全键盘或录屏黑屏的问题。"
   ],
   "downloadUrl": "https://jianghaidai.com/download",
   "qqGroup": "1049643673",
   "force": false,
   "assets": {
     "androidArm64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.9.4/jianghaidai-campus-v0.9.4-android-arm64-v8a.apk",
-      "size": 45554164,
-      "sha256": "6b5a51c079b1f925ab8b84dcd59cb518e57627eafa2e12b1e0a99e3e851ff90e"
+      "url": "https://dl.jianghaidai.com/releases/v0.9.5/jianghaidai-campus-v0.9.5-android-arm64-v8a.apk",
+      "size": 45652808,
+      "sha256": "79dc2d7e2b0d036096df0f581d3e46423573ebf8486e2d433dd27dc90d792736"
     },
     "androidArmv7": {
-      "url": "https://dl.jianghaidai.com/releases/v0.9.4/jianghaidai-campus-v0.9.4-android-armeabi-v7a.apk",
-      "size": 45040466,
-      "sha256": "dadb40259f1d8893733a83e479f75651278955c03b47e7b9a929382a2dda995a"
+      "url": "https://dl.jianghaidai.com/releases/v0.9.5/jianghaidai-campus-v0.9.5-android-armeabi-v7a.apk",
+      "size": 45204650,
+      "sha256": "b7cc7b0a6ed75ade93e5ae7a74d14fa6048732bd36efc7770155f5734ea3f658"
     },
     "androidX64": {
-      "url": "https://dl.jianghaidai.com/releases/v0.9.4/jianghaidai-campus-v0.9.4-android-x86_64.apk",
-      "size": 47449013,
-      "sha256": "9a59405a044563949913396b6bb675457375ca31ac76c1cf6ad4d501ebb6f089"
+      "url": "https://dl.jianghaidai.com/releases/v0.9.5/jianghaidai-campus-v0.9.5-android-x86_64.apk",
+      "size": 47613193,
+      "sha256": "24c944aa8cc205553ffb5c54bff80a5072abae2494db658bc296ba4567501460"
     },
     "androidAppBundle": {
-      "url": "https://dl.jianghaidai.com/releases/v0.9.4/jianghaidai-campus-v0.9.4-android.aab",
-      "size": 121043149,
-      "sha256": "3d8030a807c96e9270ea35ca6c03beff51e5db38c9054097666ba1936f76bac7"
+      "url": "https://dl.jianghaidai.com/releases/v0.9.5/jianghaidai-campus-v0.9.5-android.aab",
+      "size": 121444360,
+      "sha256": "240e25fcd0fae91b7b93d3f3cd66be1f6ce0acdae03ee24fb50c9490af231bdb"
     }
   }
 }
